@@ -67,24 +67,24 @@ const postman2 = new PostalWorker("Bonny", 27, "10'2\"", 67890);
 const chef1 = new Chef("Bill", 87, "4'3\"", "Big Buffalo");
 const chef2 = new Chef("Gracie", 40, "5'6\"", "Basement Burger Bar");
 
-// postman.introduce();
-// postman.birthday();
-// postman.snooze();
-// postman.deliver();
-// postman.drive();
-// postman2.introduce();
-// postman2.birthday();
-// postman2.snooze();
-// postman2.deliver();
-// postman2.drive();
-// chef1.introduce();
-// chef1.birthday();
-// chef1.snooze();
-// chef1.cook();
-// chef2.introduce();
-// chef2.birthday();
-// chef2.snooze();
-// chef2.cook();
+postman.introduce();
+postman.birthday();
+postman.snooze();
+postman.deliver();
+postman.drive();
+postman2.introduce();
+postman2.birthday();
+postman2.snooze();
+postman2.deliver();
+postman2.drive();
+chef1.introduce();
+chef1.birthday();
+chef1.snooze();
+chef1.cook();
+chef2.introduce();
+chef2.birthday();
+chef2.snooze();
+chef2.cook();
 
 class BankAccount {
     constructor(ownerName, balance = 0) {
